@@ -30,6 +30,16 @@ body {
 .container .form { 
     margin-top: 30px;    
 }
+
+.register-box {
+text-decoration: none;
+background-color: tomato;
+padding: 10px 25px;
+border-radius: 8px;
+align-content: ;
+}
+
+
 .form .inputbox {
     width: 100%;
     margin-top: 20px;
@@ -77,7 +87,7 @@ body {
         .select-box {
             height: 100%
             width: 100%;
-            outline: none;
+            /* outline: none; */
             
             color: #707070;
             font-size: small;
@@ -86,11 +96,10 @@ body {
             height: 55px;
             width: 100px;
         }
+     
 
-    
 
-
-@media screen and (max-width: 500pxS){
+@media screen and (max-width: 500px){
     .form .column {
         flex-wrap: wrap;
       }
